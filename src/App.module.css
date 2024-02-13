@@ -1,0 +1,17 @@
+.app {
+  width: 800px;
+  height: 800px;
+  margin: auto;
+  position: relative;
+  cursor: pointer;
+}
+
+.triangle {
+  background-image: url('./arrow.svg');
+	width: 100px;
+	height: 100px;
+  position: absolute;
+  transform-origin: center;
+  background-size: contain;
+  transition: transform 0.2s ease;
+}
