@@ -47,7 +47,7 @@ function App() {
               top: trig.top,
               transform: `rotateZ(${trig.angle}rad)`
             }} 
-            className={styles.triangle}>
+            className={styles.magnet}>
           </div>
       })}
     </div>
